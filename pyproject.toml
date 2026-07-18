@@ -1,0 +1,16 @@
+[project]
+# name＝Registry 識別碼（小寫連字號、無空格）；發布後永久不可改。
+name = "tag-semantic-search"
+description = "AIPaintWorks tag semantic search — natural language (Chinese/English/Japanese) to Danbooru tags, as a ComfyUI sidebar panel."
+version = "0.1.4"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/noirene0519/comfyui-aipaint-tags"
+
+[tool.comfy]
+PublisherId = "noirene0519"
+DisplayName = "Tag Semantic Search"
+# Icon（選填，可日後補）：公開圖示 URL（≤800x400，SVG/PNG/JPG/GIF）。留空即不設。
+# Icon = "https://.../icon.png"

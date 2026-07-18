@@ -1,0 +1,3 @@
+設計稿_*.html
+*.md
+!README*.md

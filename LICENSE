@@ -1,0 +1,31 @@
+Copyright © 2026 AIPaintWorks — source code of this ComfyUI node.
+
+SOFTWARE LICENSE
+You may install and use this node for its intended purpose (searching tags via the
+AIPaintWorks service inside ComfyUI). You may not redistribute, sell, sublicense, or
+create derivative works of the node's source code, in whole or in part, without prior
+written permission from the copyright holder. This scope covers only the node's own
+source code — NOT the tag data below (no "all rights reserved" is claimed over data
+that derives from CC BY-SA sources).
+
+DATA & ATTRIBUTION
+Tags, names and descriptions shown by this node come from the AIPaintWorks service,
+whose data derives from:
+- Tag names, descriptions and co-occurrence statistics from Danbooru
+  (https://danbooru.donmai.us).
+- Character names and summaries from Bangumi (https://bgm.tv), whose entry and
+  character data are licensed under CC BY-SA 3.0
+  (https://creativecommons.org/licenses/by-sa/3.0/); the source is credited as the
+  license requires.
+- Localized names and some descriptions are automatically generated and translated by
+  large language models; they may contain errors or omissions and are for reference
+  only — the original English text on Danbooru is authoritative.
+This is an unofficial tool, not affiliated with Danbooru or Bangumi.
+
+NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.

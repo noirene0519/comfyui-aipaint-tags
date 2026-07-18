@@ -2,7 +2,7 @@
 # name＝Registry 識別碼（小寫連字號、無空格）；發布後永久不可改。
 name = "tag-semantic-search"
 description = "AIPaintWorks tag semantic search — natural language (Chinese/English/Japanese) to Danbooru tags, as a ComfyUI sidebar panel."
-version = "0.1.4"
+version = "0.1.5"
 license = { file = "LICENSE" }
 dependencies = []
 

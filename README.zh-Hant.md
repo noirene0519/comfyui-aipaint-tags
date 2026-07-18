@@ -9,6 +9,16 @@
 NSFW 遮蔽、勾選標籤組成 PROMPT（可調權重），再一鍵附加到指定 CLIP Text Encode 節點的
 文字尾端，或複製到剪貼簿（tag 內括號自動跳脫為 `\(` `\)`）。
 
+## 快速開始
+
+**需求：** ComfyUI（2024 年中以後版本）＋可連網——搜尋會呼叫線上 API `aipaintworks.com`（每 IP 每日 50 次）。
+
+**安裝**（擇一）：
+- **ComfyUI-Manager** — 搜尋 `Tag Semantic Search`（發布者 AIPaintWorks）→ Install → 重啟 ComfyUI。若顯示黃色「Pending Security Review」標記屬正常，仍可正常安裝。
+- **手動** — 把 `git clone https://github.com/noirene0519/comfyui-aipaint-tags` clone 進 `ComfyUI/custom_nodes/`，再重啟。
+
+**開始用：** 左側工具列點**書本圖示** → 選模式、輸入描述、按 Search → 勾選標籤 → 選一個 CLIP Text Encode 節點按 Insert（或 Copy all）。介面與標籤語言跟隨 ComfyUI 本身設定。
+
 ## 架構（路線 A：薄客戶端）
 
 本節點**不內嵌**引擎與資料——所有檢索呼叫線上 AIPaintWorks API：

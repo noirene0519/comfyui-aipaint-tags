@@ -11,6 +11,16 @@ count, Chinese/Japanese/English names & descriptions, NSFW blur, ticking tags to
 (with weights), then appends to a chosen CLIP Text Encode node or copies to the clipboard
 (parentheses in tag names auto-escaped to `\(` `\)`).
 
+## Quick start
+
+**Needs:** ComfyUI (mid-2024 or newer) + internet — searches call the online API `aipaintworks.com` (50 searches per IP per day).
+
+**Install** (pick one):
+- **ComfyUI-Manager** — search `Tag Semantic Search` (publisher AIPaintWorks) → Install → restart ComfyUI. A yellow "Pending Security Review" badge is normal; the node stays installable.
+- **Manual** — `git clone https://github.com/noirene0519/comfyui-aipaint-tags` into `ComfyUI/custom_nodes/`, then restart.
+
+**Use it:** click the book icon in the left toolbar → pick a mode, type a description, press Search → tick tags → choose a CLIP Text Encode node and Insert (or Copy all). The UI and tag language follow ComfyUI's own setting.
+
 ## Architecture (Route A: thin client)
 
 The node does **not** bundle the engine or data — every search call goes to the online

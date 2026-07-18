@@ -10,6 +10,16 @@
 CLIP Text Encode ノードの末尾へ挿入、またはクリップボードへコピー（タグ名の括弧は
 `\(` `\)` に自動エスケープ）。
 
+## クイックスタート
+
+**必要環境：** ComfyUI（2024 年半ば以降）＋インターネット——検索はオンライン API `aipaintworks.com` を呼び出します（1 IP あたり 1 日 50 回）。
+
+**インストール**（いずれか）：
+- **ComfyUI-Manager** — `Tag Semantic Search`（発行者 AIPaintWorks）を検索 → Install → ComfyUI を再起動。黄色の「Pending Security Review」バッジは正常で、そのままインストールできます。
+- **手動** — `git clone https://github.com/noirene0519/comfyui-aipaint-tags` を `ComfyUI/custom_nodes/` へ、その後再起動。
+
+**使い方：** 左のツールバーの**本アイコン**をクリック → モードを選び説明を入力して Search → タグにチェック → CLIP Text Encode ノードを選んで Insert（または Copy all）。UI とタグの言語は ComfyUI の設定に従います。
+
 ## アーキテクチャ（ルート A：シンクライアント）
 
 本ノードはエンジンやデータを**内蔵しません**——検索はすべてオンラインの AIPaintWorks API を呼び出します：

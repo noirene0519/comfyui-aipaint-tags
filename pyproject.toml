@@ -2,9 +2,11 @@
 # name＝Registry 識別碼（小寫連字號、無空格）；發布後永久不可改。
 name = "tag-semantic-search"
 description = "AIPaintWorks tag semantic search — natural language (Chinese/English/Japanese) to Danbooru tags, as a ComfyUI sidebar panel."
-version = "0.1.5"
+version = "0.1.6"
 license = { file = "LICENSE" }
-dependencies = []
+# 前端相容需求：側欄面板用 Sidebar Tabs API（registerSidebarTab），需 ComfyUI frontend ≥1.2.4。
+# comfy-cli 由此 dep 產出 supported_comfyui_frontend_version，供 Registry/Manager 顯示相容性。
+dependencies = ["comfyui-frontend-package>=1.2.4"]
 
 [project.urls]
 Repository = "https://github.com/noirene0519/comfyui-aipaint-tags"
